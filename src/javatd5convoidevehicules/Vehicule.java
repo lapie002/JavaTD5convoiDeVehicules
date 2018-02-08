@@ -35,9 +35,7 @@ public abstract class Vehicule {
     
     public void nouvelleCharge(int n)
     {
-        String str = "";
-        
-        str = str + "le poids du chargement est de " + n + " tonnes";
+        System.out.println("je passe"); 
     }
     
     public void enregistreVitesse()
