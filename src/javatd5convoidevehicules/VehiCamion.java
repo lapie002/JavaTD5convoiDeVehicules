@@ -55,7 +55,8 @@ public abstract class VehiCamion extends Vehicule{
         
     }
     
-    public int calculDuPoisTotal(int poidsAvide){
+    public int calculDuPoisTotal(int poidsAvide)
+    {
         return poidsAvide + this.chargeActuelle;
     }
     
