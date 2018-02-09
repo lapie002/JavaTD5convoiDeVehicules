@@ -22,8 +22,8 @@ public class VehiPetitBus extends Vehicule{
     {
         String str = "";
         
-        str = str + super.toString() + " poids a vide " + POIDSAVIDE + 
-              " vitesse Maximum " + VITESSEMAX;
+        str = str + super.toString() + " poids a vide: " + POIDSAVIDE + 
+              " tonne(s), et sa vitesse Max: " + VITESSEMAX + " km/h";
         
         return str;
     }

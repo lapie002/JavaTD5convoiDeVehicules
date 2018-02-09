@@ -21,7 +21,7 @@ public abstract class VehiCamion extends Vehicule{
     {
         String str = "";
         
-        str = str + super.toString() + " charge actuelle " + chargeActuelle;
+        str = str + super.toString() + "charge actuelle: " + chargeActuelle + " tonne(s) ";
         
         return str;
     }

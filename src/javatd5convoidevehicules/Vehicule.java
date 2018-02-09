@@ -28,7 +28,7 @@ public abstract class Vehicule {
     {
         String str = "";
         
-        str = str + "le camion est immatricule sous le numero " + immat + ", et sa vitesse maximum est " + vitesseMaxi + " ";
+        str = str + "le camion est immatricule sous le numero " + immat + ", et sa vitesse est " + vitesseMaxi + " km/h, ";
         
         return str;
     }

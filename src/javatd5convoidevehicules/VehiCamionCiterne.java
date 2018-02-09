@@ -25,8 +25,8 @@ public class VehiCamionCiterne extends VehiCamion{
     {
         String str = "";
         
-        str = str + super.toString() + " le poids à vide " + this.POIDSAVIDE + 
-                " la charge maximale " + this.CHARGEMAXI + "\n";
+        str = str + super.toString() + "le poids à vide: " + this.POIDSAVIDE + 
+                " tonne(s), la charge maximale: " + this.CHARGEMAXI + " tonne(s) \n";
         
         return str;
     }
